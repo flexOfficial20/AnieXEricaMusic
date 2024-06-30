@@ -6,27 +6,27 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID","6435225"))
-API_HASH = getenv("API_HASH","4e984ea35f854762dcde906dce426c2d")
-BOT_TOKEN = getenv("BOT_TOKEN","")
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "9999"))
-LOGGER_ID = int(getenv("LOGGER_ID", "-1001971806089"))
-BOTADDLOGS = int(getenv("BOTADDLOGS", "-1001971806089")) # LOGGER_ID Id Also Use No Problem
-GBAN_LOGS = int(getenv("GBAN_LOGS", "-1002046393302"))
-GCAST_USERS = list(map(int, getenv("GCAST_USERS", "2105971379 7137269276 7045191057").split()))
-OWNER_ID = int(getenv("OWNER_ID", 7137269276))
-OWNER = int(getenv("OWNER", 2105971379))
-OWNER_USERNAME = getenv("OWNER_USERNAME","sultan11100")
+API_ID = int(getenv("API_ID","20533795"))
+API_HASH = getenv("API_HASH","f6cadf28523943f525e706e6ace8a250")
+BOT_TOKEN = getenv("BOT_TOKEN","6999969950:AAHCSV2jk8fkEbU_7xTrQhfKSCGcbWynRJs")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Zxcdc:zxchypernjqjjqv8762@cluster0.hcgtozy.mongodb.net/?retryWrites=true&w=majority")
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "999999999"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002078575375"))
+BOTADDLOGS = int(getenv("BOTADDLOGS", "-1002078575375")) # LOGGER_ID Id Also Use No Problem
+GBAN_LOGS = int(getenv("GBAN_LOGS", "-1002078575375"))
+GCAST_USERS = list(map(int, getenv("GCAST_USERS", "6584789596").split()))
+OWNER_ID = int(getenv("OWNER_ID", 6584789596))
+OWNER = int(getenv("OWNER", 6584789596))
+OWNER_USERNAME = getenv("OWNER_USERNAME","FLEXdub_Official")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
-HEROKU_API_KEY = getenv("HEROKU_API_KEY")
+HEROKU_API_KEY = getenv("HEROKU_API_KEY", "HRKU-588310e1-3ddf-4208-a517-ae0f4508047e")
 UPSTREAM_REPO = getenv("UPSTREAM_REPO","https://github.com/AbhiModszYT/AnieXEricaMusic")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN",None)
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Logs_Gban")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/AM_YTSUPPORT")
-AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
-AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "5400"))
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/FLEX_BOTS_NEWS")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/FLEX_SUPPORT_CHAT")
+AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
+AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "99999"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION", 7000))
 SONG_DOWNLOAD_DURATION_LIMIT = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", 7000))
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "9999")) 
@@ -36,7 +36,7 @@ PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 25))
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "3000"))
 TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", 5242880000))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 5242880000))
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQE5UiMAjurVvK0RykFxXllSFBFZQOry1K_i5nzN75rHM0bIvds21NwdR_wj9FM3WTSFqDGPKgZxXl4c56APU_IfDsI63jjwYpDeSv2kRfWA21HhvgFCkiSp54ZgSvF36Lii3QAul5SxNe27AXePAM8yow2EX-wEzPmggzgyXYcqy7nI3N5bBEl8qaAW86Y-LdNaO5_e4xztO8mVMb-IFkxexQObKrCl_-QIINwYzcUuzx3u1QyUGyVttspwfhrmjPg8zLHV90Ehb00cZdSrCjhT0v4d5IYTSh1VfULUdS9YcbB3gzsnHe8z5ycZwQpCxQf7w1Z2NJ2Tw51lC2ts4efwFYYw0QAAAAF-Ni2lAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -51,12 +51,12 @@ confirmer = {}
 AMBOT = [
     "🔎",
     "🔍",
-    "🧪",
+    "✨",
     "ᴘʟꜱ ᴡᴀɪᴛ..",
     "ᴘʀᴏᴄᴇꜱꜱɪɴɢ..",
 ]
 
-START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/f234fa4e140eb1b85d185.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/5abc92f2c2367baf29fa3.jpg")
 PING_IMG_URL = getenv("PING_IMG_URL", "https://graph.org/file/f234fa4e140eb1b85d185.jpg")
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
 STATS_IMG_URL = getenv("STATS_IMG_URL", "https://graph.org/file/f234fa4e140eb1b85d185.jpg")
